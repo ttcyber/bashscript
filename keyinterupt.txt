@@ -1,0 +1,9 @@
+
+
+//start of code
+IFS=''
+if [ -t 0 ]; then stty -echo -icanon raw time 0 min 0; fi
+while [ -z "$key" ]; do
+    read key
+done
+if [ -t 0 ]; then stty sane; fi
