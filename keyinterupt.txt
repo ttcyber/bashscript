@@ -1,5 +1,6 @@
-
-
+Save file as keyinput.sh
+$chmod +x keyinput.sh
+$./keyinput.sh
 //start of code
 IFS=''
 if [ -t 0 ]; then stty -echo -icanon raw time 0 min 0; fi
